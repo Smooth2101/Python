@@ -19,7 +19,6 @@ paris = sites['Paris']
 Moscow_London = ((moscow[0]-london[0])**2+(moscow[1]+london[1])**2)**.5
 Moscow_Paris = ((moscow[0]-paris[0])**2+(moscow[1]+paris[1]**2))**.5
 London_Paris = ((london[0]-paris[0])**2+(london[1]+paris[1])**2)**.5
-# TODO здесь заполнение словаря
 
 distances ['Moscow'] = {}
 distances ['Moscow']['London'] = Moscow_London
