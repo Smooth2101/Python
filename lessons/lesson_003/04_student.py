@@ -10,5 +10,14 @@
 #   Студенту надо попросить ХХХ.ХХ рублей
 
 educational_grant, expenses = 10000, 12000
-
-# TODO здесь ваш код
+proc = 0
+sum = expenses
+count = expenses
+general_educational = educational_grant*10
+i = 1
+while i < 10:
+    i = i + 1
+    proc = sum * .03
+    sum = sum + proc
+    count += sum
+print('Студенту надо попросить',round(count-general_educational,2) ,'рублей')
